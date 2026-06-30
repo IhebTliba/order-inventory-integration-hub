@@ -1,4 +1,4 @@
-package com.integrationhub.orderservice.entity;
+package com.integrationhub.order_service.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

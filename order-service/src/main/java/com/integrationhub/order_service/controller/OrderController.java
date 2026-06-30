@@ -1,8 +1,8 @@
-package com.integrationhub.orderservice.controller;
+package com.integrationhub.order_service.controller;
 
-import com.integrationhub.orderservice.dto.OrderRequest;
-import com.integrationhub.orderservice.dto.OrderResponse;
-import com.integrationhub.orderservice.service.OrderService;
+import com.integrationhub.order_service.dto.OrderRequest;
+import com.integrationhub.order_service.dto.OrderResponse;
+import com.integrationhub.order_service.service.OrderService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

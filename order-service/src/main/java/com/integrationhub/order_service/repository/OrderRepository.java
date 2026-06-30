@@ -1,6 +1,6 @@
-package com.integrationhub.orderservice.repository;
+package com.integrationhub.order_service.repository;
 
-import com.integrationhub.orderservice.entity.Order;
+import com.integrationhub.order_service.entity.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

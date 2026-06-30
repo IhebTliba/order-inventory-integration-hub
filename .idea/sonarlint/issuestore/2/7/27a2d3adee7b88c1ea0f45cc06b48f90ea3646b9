@@ -1,0 +1,17 @@
+
+‰
+java:S1598"æThis file "OrderResponse.java" should be located in "com\integrationhub\orderservice\dto" directory, not in "C:\Users\ihen\projects\order-inventory-integration-hub\order-service\src\main\java\com\integrationhub\order_service\dto".(Ó£üŠûÿÿÿÿ8œ»ÖÁñ3
+H
+java:S1068"&Remove this unused "id" private field.(şÓî«şÿÿÿÿ8§»ÖÁñ3
+L
+java:S1068"/Remove this unused "productCode" private field.(õĞÍÓ8§»ÖÁñ3
+N
+java:S1068",Remove this unused "quantity" private field.(÷ç¥‚ùÿÿÿÿ8¨»ÖÁñ3
+J
+java:S1068"-Remove this unused "unitPrice" private field.(¿ÍÎÙ8¨»ÖÁñ3
+N
+java:S1068",Remove this unused "currency" private field.(´£±òıÿÿÿÿ8¨»ÖÁñ3
+G
+java:S1068"*Remove this unused "status" private field.(œƒó8©»ÖÁñ3
+O
+java:S1068"-Remove this unused "createdAt" private field.(¯‰‡ƒıÿÿÿÿ8©»ÖÁñ3
