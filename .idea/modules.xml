@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/order-service/order-service/order-service.iml" filepath="$PROJECT_DIR$/order-service/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/order-inventory-integration-hub.iml" filepath="$PROJECT_DIR$/.idea/order-inventory-integration-hub.iml" />
     </modules>
   </component>
 </project>

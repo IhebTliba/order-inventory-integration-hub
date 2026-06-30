@@ -1,0 +1,23 @@
+
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+g
+7order-service/src/main/resources/application.properties,e\7\e798f939adaa649751f14ddf8e58ee00bc7ac40d
+p
+@order-service/src/main/java/com/integrationhub/entity/Order.java,3\3\3310d99a8f2b934a119758959dc011b391522818
+v
+Forder-service/src/main/java/com/integrationhub/entity/OrderStatus.java,9\b\9bead0dfef60caf88690bac027d1e2a8109b59e4
+}
+Morder-service/src/main/java/com/integrationhub/orderservice/OrderRequest.java,4\f\4fdd512ef950752750441fd64e6554d7147fcb70
+‚
+Rorder-service/src/main/java/com/integrationhub/order_service/dto/OrderRequest.java,e\7\e754846b138bcb47479340150eaab8b0d9d59ba8
+ƒ
+Sorder-service/src/main/java/com/integrationhub/order_service/dto/OrderResponse.java,2\7\27a2d3adee7b88c1ea0f45cc06b48f90ea3646b9
+Œ
+\order-service/src/main/java/com/integrationhub/order_service/repository/OrderRepository.java,9\9\998678f0184301b8a0b8f51dbc51b69b1b7b2e0a
+†
+Vorder-service/src/main/java/com/integrationhub/order_service/service/OrderService.java,1\0\10c916b3ad4613b57da87f7181c1170d5a42abfd
+Œ
+\order-service/src/main/java/com/integrationhub/order_service/controller/OrderController.java,b\9\b94931b341b449e438040006c25979449e40a7ec
+B
+docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
