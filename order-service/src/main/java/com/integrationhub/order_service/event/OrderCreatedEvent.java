@@ -1,6 +1,5 @@
-package com.integrationhub.order_service.dto;
+package com.integrationhub.order_service.event;
 
-import com.integrationhub.order_service.entity.OrderStatus;
 import lombok.Builder;
 import lombok.Getter;
 
@@ -9,12 +8,11 @@ import java.time.LocalDateTime;
 
 @Getter
 @Builder
-public class OrderResponse {
-    private Long id;
+public class OrderCreatedEvent {
+    private Long orderId;
     private String productCode;
     private Integer quantity;
     private BigDecimal unitPrice;
     private String currency;
-    private OrderStatus status;
     private LocalDateTime createdAt;
 }

@@ -1,9 +1,9 @@
-package com.integrationhub.orderservice.service;
+package com.integrationhub.order_service.service;
 
-import com.integrationhub.orderservice.dto.OrderRequest;
-import com.integrationhub.orderservice.dto.OrderResponse;
-import com.integrationhub.orderservice.entity.Order;
-import com.integrationhub.orderservice.repository.OrderRepository;
+import com.integrationhub.order_service.dto.OrderRequest;
+import com.integrationhub.order_service.dto.OrderResponse;
+import com.integrationhub.order_service.entity.Order;
+import com.integrationhub.order_service.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -13,6 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class OrderService {
 
     private final OrderRepository orderRepository;
+    private final OrderEventPublisher eventPublisher;
 
     @Transactional
     public OrderResponse createOrder(OrderRequest request) {
@@ -25,7 +26,7 @@ public class OrderService {
 
         Order saved = orderRepository.save(order);
 
-        // TODO étape Kafka : publier un événement "OrderCreated" ici
+        eventPublisher.publishOrderCreated(saved);
 
         return toResponse(saved);
     }

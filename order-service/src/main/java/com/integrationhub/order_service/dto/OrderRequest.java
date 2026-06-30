@@ -1,4 +1,4 @@
-package com.integrationhub.orderservice.dto;
+package com.integrationhub.order_service.dto;
 
 import jakarta.validation.constraints.*;
 import lombok.Getter;
