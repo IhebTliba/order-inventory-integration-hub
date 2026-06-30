@@ -1,9 +1,9 @@
-package com.integrationhub.orderservice.service;
+package com.integrationhub.order_service.service;
 
-import com.integrationhub.orderservice.dto.OrderRequest;
-import com.integrationhub.orderservice.dto.OrderResponse;
-import com.integrationhub.orderservice.entity.Order;
-import com.integrationhub.orderservice.repository.OrderRepository;
+import com.integrationhub.order_service.dto.OrderRequest;
+import com.integrationhub.order_service.dto.OrderResponse;
+import com.integrationhub.order_service.entity.Order;
+import com.integrationhub.order_service.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

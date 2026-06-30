@@ -1,6 +1,6 @@
-package com.integrationhub.orderservice.dto;
+package com.integrationhub.order_service.dto;
 
-import com.integrationhub.orderservice.entity.OrderStatus;
+import com.integrationhub.order_service.entity.OrderStatus;
 import lombok.Builder;
 import lombok.Getter;
 
