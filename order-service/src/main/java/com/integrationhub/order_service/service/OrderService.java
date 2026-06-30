@@ -13,6 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class OrderService {
 
     private final OrderRepository orderRepository;
+    private final OrderEventPublisher eventPublisher;
 
     @Transactional
     public OrderResponse createOrder(OrderRequest request) {
@@ -25,7 +26,7 @@ public class OrderService {
 
         Order saved = orderRepository.save(order);
 
-        // TODO étape Kafka : publier un événement "OrderCreated" ici
+        eventPublisher.publishOrderCreated(saved);
 
         return toResponse(saved);
     }
